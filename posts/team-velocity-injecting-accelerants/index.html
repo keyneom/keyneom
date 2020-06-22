@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.72.0" />
+
+  <title>Team Velocity: Injecting Accelerants &middot; Mika Sanchez</title>
+
+  <meta name="description" content="" />
+
+  
+
+<meta itemprop="name" content="Team Velocity: Injecting Accelerants">
+<meta itemprop="description" content="Recently, a previous client reached out to me asking about how to avoid some recurring issues that their team was running into.">
+<meta itemprop="datePublished" content="2020-06-15T12:00:00-06:00" />
+<meta itemprop="dateModified" content="2020-06-15T12:00:00-06:00" />
+<meta itemprop="wordCount" content="444">
+
+
+
+<meta itemprop="keywords" content="Project Management,velocity,Pariveda,learning," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Team Velocity: Injecting Accelerants"/>
+<meta name="twitter:description" content="Recently, a previous client reached out to me asking about how to avoid some recurring issues that their team was running into."/>
+
+
+<meta property="og:title" content="Team Velocity: Injecting Accelerants" />
+<meta property="og:description" content="Recently, a previous client reached out to me asking about how to avoid some recurring issues that their team was running into." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://replace-this-with-your-hugo-site.com/posts/team-velocity-injecting-accelerants/" />
+<meta property="article:published_time" content="2020-06-15T12:00:00-06:00" />
+<meta property="article:modified_time" content="2020-06-15T12:00:00-06:00" />
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/mika.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  
+  <script type="module">
+    
+    
+    
+    
+    
+    
+    
+    
+    import { search, default as init } from './search/tinysearch_engine.js';
+    window.search = search;
+
+    async function run() {
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      await init('./search/tinysearch_engine_bg.wasm');
+    }
+
+    run();
+  </script>
+
+  <script>
+    
+    function doSearch() {
+      let value = document.getElementById("search-input").value;
+      const arr = search(value, 10);
+      let ul = document.getElementById("results");
+      ul.innerHTML = "";
+
+      for (i = 0; i < arr.length; i++) {
+        var li = document.createElement("li");
+
+        let elem = arr[i];
+        let elemlink = document.createElement('a');
+        elemlink.innerHTML = elem[0];
+        elemlink.setAttribute('href', elem[1]);
+        li.appendChild(elemlink);
+
+        ul.appendChild(li);
+      }
+    }
+  </script>
+  <div class="container">
+    <div class="sidebar-about">
+      
+      
+      <div class="author-image">
+        <img src="/img/profile.jpeg" class="img-circle img-headshot center" alt="Profile Picture">
+      </div>
+      
+      
+
+      <h1>Mika Sanchez</h1>
+
+      
+      <p class="lead">A place for my thoughts</p>
+      
+    </div>
+    <div class="search">
+      <input type="text" id="search-input" onkeyup="doSearch()" placeholder="Search" />
+      <ul id="results"></ul>
+    </div>
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="http://replace-this-with-your-hugo-site.com/">Home</a>
+        </li>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://www.linkedin.com/in/mikael-sanchez" rel="me" title="Linkedin" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://github.com/keyneom" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+  <main class="content container">
+  <div class="post">
+  <h1>Team Velocity: Injecting Accelerants</h1>
+
+  <div class="post-date">
+    <time datetime="2020-06-15T12:00:00-0600">Jun 15, 2020</time> &middot; 3 min read
+  </div>
+
+  <p>Recently, a previous client reached out to me asking about how to avoid some recurring issues that their team was running into. In essence, members of the team continued to make silly but difficult to find errors that were taking much longer to fix than they should have taken. Often times, this is a symptom of a team&rsquo;s <em>immature</em> sense of urgency to hit deadlines, close out all the stories in a given sprint, or just keep the business happy. To be clear, a sense of urgency can be an important factor in developing a high-performing team but it can also be debilitating. As a result, I&rsquo;d like to provide some principles to keep in mind when facing these types of challenges.</p>
+<h2 id="integrals-of-learning">Integrals of Learning</h2>
+<p>Many project managers are familiar with using not just a team&rsquo;s current position, but a team&rsquo;s velocity as a good measure of how a team is performing. It&rsquo;s true, velocity is powerful, but it is also an incomplete view of what lies ahead on the road to project success. Some of you might remember learning about derivatives during school. Below are a few classic graphs that help to visualize the relationship between:</p>
+<ul>
+<li>Position&ndash;where your team is on the path to your project milestones</li>
+<li>Velocity&ndash;how quickly a team is completing work</li>
+<li>Acceleration&ndash;the change in your team&rsquo;s velocity over time</li>
+</ul>
+<p><img src="/img/position-velocity-acceleration.png" alt="Three graphs comparing Position, Velocity, and Acceleration to time for a given team."></p>
+<p>Acceleration and its underlying drivers are all too often left out of the equation to project success. The best driver I&rsquo;ve found to ensure ever-increasing velocity is to ensure continued effective <strong>learning</strong>! If your team has stopped learning, that is a recipe for negative acceleration!</p>
+<p>Now the question for project success becomes:</p>
+<p>How fast can you teach your team?</p>
+<p>But people never learn when they aren’t interested no matter how much you teach. So the question really becomes:</p>
+<p><strong>How much can you inspire your team to learn?</strong></p>
+<p>If <em>you</em> learn to inspire your team to continue learning and growing, then you will build a team that can deliver on the toughest deadlines while maintaining quality outputs. <em>An immature sense of urgency ignores learning</em> and as a result leads to failure and delays on all but the shortest timescales.</p>
+<p><strong>Gut check: Is your team&rsquo;s velocity still increasing or has it gone flat?</strong></p>
+<p>If your team&rsquo;s velocity has gone flat but you have a good team, you might be thinking there isn&rsquo;t much left for them to learn or that the 2-3 day training session you paid for didn&rsquo;t provide the benefits you were expecting. <a href="https://www.parivedasolutions.com/">My company</a> <em>partners</em> with you to actually get the job done all while sharing <a href="https://commoncog.com/blog/tacit-knowledge-is-a-real-thing/">Tacit Knowledge</a> and acting as an accelerant to your team&rsquo;s velocity.</p>
+<p>Learn. Coach. Give.</p>
+
+</div>
+
+
+  </main>
+
+  <footer>
+  <div>
+    &copy; Mika Sanchez 2020
+
+    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+    
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+  
+
+  
+</body>
+</html>

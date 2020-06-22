@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management on Mika Sanchez</title>
+    <link>http://replace-this-with-your-hugo-site.com/tags/project-management/</link>
+    <description>Recent content in Project Management on Mika Sanchez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 12:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://replace-this-with-your-hugo-site.com/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Team Velocity: Injecting Accelerants</title>
+      <link>http://replace-this-with-your-hugo-site.com/posts/team-velocity-injecting-accelerants/</link>
+      <pubDate>Mon, 15 Jun 2020 12:00:00 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/posts/team-velocity-injecting-accelerants/</guid>
+      <description>Recently, a previous client reached out to me asking about how to avoid some recurring issues that their team was running into.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mika Sanchez</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/</link>
+    <description>Recent content in Categories on Mika Sanchez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jun 2020 12:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://replace-this-with-your-hugo-site.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project Management</title>
+      <link>http://replace-this-with-your-hugo-site.com/categories/project-management/</link>
+      <pubDate>Mon, 15 Jun 2020 12:00:00 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/categories/project-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life Lessons</title>
+      <link>http://replace-this-with-your-hugo-site.com/categories/life-lessons/</link>
+      <pubDate>Tue, 14 Feb 2017 12:00:00 -0600</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/categories/life-lessons/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
